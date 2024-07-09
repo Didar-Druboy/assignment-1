@@ -48,6 +48,9 @@ font-weight: 600;
 text-align: center;
 text-decoration: none;
 }
+.margin{
+    margin: 0px auto;
+}
 /* shared contents end here ******************************************************** */
 header{
     border: 2px solid red;
@@ -142,7 +145,7 @@ min-height: 775px;
 margin: 0 auto;
 border: 2px solid red;
 text-align: center;
-/* margin-bottom: 151; */
+margin-bottom: 151px;
 }
 .inspiration-container{
     width: 852px;
@@ -163,3 +166,33 @@ iframe{
     border-radius: 16px;
 }
 /*Inspiration ends here *************************************************************************** */
+.current-target{
+    max-width: 1140px;
+    min-height: 600px;
+    border: 2px solid red;
+    text-align: center;
+    margin-bottom: 111px;
+}
+.current-target-text{
+max-width: 852px;
+}
+.current-target-description{
+    margin: 24px 0px 48px 0px;
+}
+.target-card{
+    width: 31.9%;
+    float: left;
+    padding: 40px;
+    min-height: 400px;
+    border-radius: 16px;
+}
+.html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+}
+.javascript{
+    background: rgba(255, 223, 0, 0.05);
+}
