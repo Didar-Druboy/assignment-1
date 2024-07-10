@@ -6,6 +6,9 @@
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* This is for shared styles ********************************************************** */
 .text-p{
     font-size: 16px;
@@ -53,7 +56,6 @@ text-decoration: none;
 }
 /* shared contents end here ******************************************************** */
 header{
-    border: 2px solid red;
     max-width: 1440px;
     margin: 0 auto;
     min-height 652px;
@@ -97,7 +99,6 @@ header{
 }
 /* header section ends here ******************************************************** */
 .why-web-container{
-    border: 2px solid red;
     max-width: 1140px;
     min-height: 1395px;
     margin: 0 auto;
@@ -138,12 +139,11 @@ header{
 .why-web-section-content-container-different{
     margin-right: 60px;
 }
-/* ************************************************************** */
+/*why web development section ends here ************************************************************** */
 .inspiration{
 max-width: 1140px;
 min-height: 775px;
 margin: 0 auto;
-border: 2px solid red;
 text-align: center;
 margin-bottom: 151px;
 }
@@ -169,7 +169,6 @@ iframe{
 .current-target{
     max-width: 1140px;
     min-height: 600px;
-    border: 2px solid red;
     text-align: center;
     margin-bottom: 111px;
 }
