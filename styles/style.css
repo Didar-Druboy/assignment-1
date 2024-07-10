@@ -38,25 +38,50 @@ html{
     line-height: 36px;
 }
 .shared-btn{
-align-items: center;
-padding: 12px 20px;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-background-color: white;
+    align-items: center;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
 }
 .shared-btn>a{
-color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-text-align: center;
-text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
 }
 .margin{
     margin: 0px auto;
 }
 /* shared contents end here ******************************************************** */
+.nav-container{
+    max-width: 1440px;
+    min-height: 131px;
+}
+nav{
+    padding: 35px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>h3{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 14px;
+}
+nav>button{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px; 
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    background-color: white;
+    
+}
 header{
-    border: 2px solid red;
     max-width: 1440px;
     min-height: 730px;
     background: url(../assets/Hero-bg.png);
@@ -67,7 +92,6 @@ header{
     margin-top: 26px;
 }
 .header-container{
-    border: 2px solid red;
     max-width: 998px;
     min-height: 680px;
 }
@@ -98,7 +122,6 @@ main{
     margin-top: 74px;
 }
 .why-web-container{
-    border: 2px solid red;
     max-width: 1140px;
     min-height: 1395px;
     margin: 0 auto;
@@ -141,7 +164,6 @@ main{
 }
 /*why web development section ends here ************************************************************** */
 .inspiration{
-    border: 2px solid red;
     max-width: 1140px;
     min-height: 775px;
     margin: 0 auto;
@@ -156,12 +178,11 @@ main{
     margin: 24px 0px 48px 0px;
 }
 .iframe{
-max-width: 1140px;
-min-height: 614px;
-padding: 32px;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-
+    max-width: 1140px;
+    min-height: 614px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
 .iframe-main{
     max-width: 1076px;
@@ -175,7 +196,6 @@ iframe{
 }
 /*Inspiration ends here *************************************************************************** */
 .current-target{
-    border: 2px solid red;
     max-width: 1140px;
     min-height: 625px;
     margin-bottom: 111px;
@@ -191,11 +211,6 @@ iframe{
     justify-content: space-between;
 }
 .target-card{
-    /* width: 31.9%;
-    float: left;
-    padding: 40px;
-    min-height: 400px;
-    border-radius: 16px; */
     padding: 40px;
     border-radius: 16px;
 }
@@ -224,7 +239,6 @@ iframe{
 }
 /* cards end here ******************************************************************** */
 .support{
-    border: 2px solid red;
     max-width: 1140px;
     min-height: 313px;
     background: url(../assets/handshake.jpg);
@@ -282,7 +296,6 @@ iframe{
 }
 /* support section ends here ********************************************************************** */
 #footer{
-    border: 2px solid red;
     max-width: 1440px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
