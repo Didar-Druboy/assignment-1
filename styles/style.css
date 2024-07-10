@@ -56,6 +56,7 @@ text-decoration: none;
 }
 /* shared contents end here ******************************************************** */
 header{
+    border: 2px solid red;
     max-width: 1440px;
     margin: 0 auto;
     min-height 652px;
@@ -99,6 +100,7 @@ header{
 }
 /* header section ends here ******************************************************** */
 .why-web-container{
+    border: 2px solid red;
     max-width: 1140px;
     min-height: 1395px;
     margin: 0 auto;
@@ -141,11 +143,12 @@ header{
 }
 /*why web development section ends here ************************************************************** */
 .inspiration{
-max-width: 1140px;
-min-height: 775px;
-margin: 0 auto;
-text-align: center;
-margin-bottom: 151px;
+    border: 2px solid red;
+    max-width: 1140px;
+    min-height: 775px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 151px;
 }
 .inspiration-container{
     width: 852px;
@@ -167,13 +170,14 @@ iframe{
 }
 /*Inspiration ends here *************************************************************************** */
 .current-target{
+    border: 2px solid red;
     max-width: 1140px;
     min-height: 600px;
     text-align: center;
     margin-bottom: 111px;
 }
 .current-target-text{
-max-width: 852px;
+    max-width: 852px;
 }
 .current-target-description{
     margin: 24px 0px 48px 0px;
@@ -197,6 +201,7 @@ max-width: 852px;
 }
 /* cards end here ******************************************************************** */
 .support{
+    border: 2px solid red;
     max-width: 1140px;
     min-height: 313px;
     background: url(../assets/handshake.jpg);
@@ -254,6 +259,7 @@ max-width: 852px;
 }
 /* support section ends here ********************************************************************** */
 footer{
+    border: 2px solid red;
     max-width: 1440px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
