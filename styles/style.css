@@ -31,7 +31,7 @@
 .text-h3{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 36px;
 }
 .shared-btn{
@@ -196,3 +196,61 @@ max-width: 852px;
 .javascript{
     background: rgba(255, 223, 0, 0.05);
 }
+/* cards end here ******************************************************************** */
+.support{
+    max-width: 1140px;
+    min-height: 313px;
+    background: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+}
+.support-text{
+    width: 730px;
+}
+.support-h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0px 24px 0px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-text input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    display: block;
+}
+.support-text button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    display: block;
+    margin-left: 16px;
+}
+/* support section ends here ********************************************************************** */
